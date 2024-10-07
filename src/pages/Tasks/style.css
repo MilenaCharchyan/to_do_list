@@ -1,0 +1,90 @@
+.tasks {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #f8f9fc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+ 
+  h4 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #3e3f5e;
+  }
+  
+  .tasks > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+  }
+  
+  .tasks > div:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .tasks span {
+    font-size: 18px;
+    color: #3e3f5e;
+  }
+  
+  .tasks input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .tasks input[type="checkbox"]:checked + div {
+    text-decoration: line-through;
+    color: #aaa;
+  }
+  
+  .tasks div[style*="line-through"] {
+    text-decoration: line-through;
+    color: #c4c4c4;
+  }
+  
+  .tasks button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: #ff4d4f;
+    cursor: pointer;
+    transition: color 0.2s ease;
+  }
+  
+  .tasks button:hover {
+    color: #ff0000;
+  }
+  
+  button.add-task {
+    background-color: #4e60ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  
+  select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 30px;
+  }
+  
